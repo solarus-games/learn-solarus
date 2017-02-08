@@ -7,7 +7,7 @@ Solarus étant un logiciel qui permet de jouer à des jeux Zelda-like, vous pouv
 
 Dans cette série de tutoriels, la plupart des exemples utilisent des ressources venant des jeux Zelda. Cependant, la plupart des tutoriels restent valables quel que soit votre choix de ressources.
 
-Ce tutoriel explique comment utiliser le pack de resources de Zelda A Link to the Past dans votre projet.
+Ce tutoriel explique comment utiliser le pack de resources de Zelda A Link to the Past dans votre projet. Cependant, la procédure est similaire pour importer des ressources venant d'autres projets Solarus.
 
 ## 1) Téléchargement du pack Solarus pour Zelda A Link to the Past
 
@@ -17,7 +17,7 @@ Une fois cette archive téléchargée et extraite, vous aurez deux possibilités
 
 ### A) Créer une toute nouvelle quête
 
-La première possibilité sera de créer une toute nouvelle quête. Créez donc un nouveau dossier, qui contiendra votre nouvelle quête, puis copiez le dossier "data" de l'archive directement dans ce dossier.
+La première possibilité sera de créer une toute nouvelle quête. Créez donc un nouveau dossier, qui contiendra votre nouvelle quête, puis copiez le dossier `data` de l'archive directement dans ce dossier.
 ![](images/add_ressource_mode1.png)
 
 Vous devrez ensuite lancer l'éditeur de quête, puis sélectionner "Fichier -> Ouvrir une quête" avant de préciser le dossier que vous venez de créer.
@@ -27,12 +27,14 @@ Pour cela, ouvrez les propriétés de votre quête (Fichier -> Propriétés de l
 
 ### B) Ajouter les ressources à une quête existante
 
-Pour ajouter les textures à une quête déjà créée, vous devrez copier le contenu du dossier "data" de l'archive, en ommettant les fichiers `project_db.dat` et `quest.dat`. Vous devez donc copier ces fichiers de cette manière:
+Avant toute chose, faites toujours une sauvegarde de vos données !
+
+Pour ajouter les ressources Zelda à une quête déjà existante, vous devrez copier le contenu du dossier `data` de l'archive, en ommettant les fichiers `project_db.dat` (la liste des ressources de votre quête, car vous ne voulez pas perdre vos ressources existantes) et `quest.dat` (les propriétés de votre quête comme le titre et le dossier des sauvegardes). Si vous souhaitez tout récupérer, vous pouvez donc copier les fichiers du dossier `data` de cette manière :
 ![](images/add_ressource_mode2.png)
 
-Il est également possible de ne prendre que les ressources que vous souhaitez, en examinant les sous-dossiers de `data` pour ne copie que les fichiers qui vous intéressent.
+Il est également possible de ne prendre que les ressources que vous souhaitez, surtout si vous avez déjà vos propres scripts et vos propres ressources présentes. Pour cela, examinez les sous-dossiers de `data` pour ne copier que les fichiers qui vous intéressent.
 
-Ensuite, démarrez l'éditeur, et ouvrez votre quête.
-Dans l'arbre de la quête (à gauche de la fenêtre), vous verrez plusieurs fichiers avec une icône de point d'interrogation. Il s'agit des fichiers que l'éditeur détecte sur le disque mais qui ne font pas encore partie du projet. Vous devrez faire un clic droit sur ces fichiers, et les ajouter au projet via l'option correspondante. Cette méthode est assez fastidieuse, surtout pour des packs de ressources conséquents.
+Dans tous les cas, après avoir copié les fichiers, démarrez l'éditeur et ouvrez votre quête.
+Dans l'arbre de la quête (à gauche de la fenêtre), vous verrez plusieurs fichiers avec une icône de point d'interrogation. Il s'agit des fichiers que Solarus Quest Editor détecte sur le disque mais qui ne font pas encore partie de votre projet. Vous devrez faire un clic droit sur ces fichiers, et les ajouter au projet via l'option correspondante. Cette méthode peut être assez fastidieuse, surtout pour des packs de ressources conséquents.
 
 La prochaine version de Solarus (1.6) simpliera cette tâche en permettant d'importer pour vous des ressources venant d'autres projets.

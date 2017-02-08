@@ -1,4 +1,4 @@
-# Ajout de ressources Zelda prévues pour Solarus
+# Chapitre 2 - Ajout de ressources Zelda prévues pour Solarus
 
 Les ressources, c'est l'ensemble de toutes les données visuelles (décors, sprites de personnages, etc) et sonores (musiques et sons) qui seront dans votre projet.
 

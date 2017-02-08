@@ -18,7 +18,7 @@ Une fois cette archive téléchargée et extraite, vous aurez deux possibilités
 ### A) Créer une toute nouvelle quête
 
 La première possibilité sera de créer une toute nouvelle quête. Créez donc un nouveau dossier, qui contiendra votre nouvelle quête, puis copiez le dossier "data" de l'archive directement dans ce dossier.
-![](../images/add_ressource_mode1.png)
+![](images/add_ressource_mode1.png)
 
 Vous devrez ensuite lancer l'éditeur de quête, puis sélectionner "Fichier -> Ouvrir une quête" avant de préciser le dossier que vous venez de créer.
 
@@ -28,7 +28,7 @@ Pour cela, ouvrez les propriétés de votre quête (Fichier -> Propriétés de l
 ### B) Ajouter les ressources à une quête existante
 
 Pour ajouter les textures à une quête déjà créée, vous devrez copier le contenu du dossier "data" de l'archive, en ommettant les fichiers `project_db.dat` et `quest.dat`. Vous devez donc copier ces fichiers de cette manière:
-![](../images/add_ressource_mode2.png)
+![](images/add_ressource_mode2.png)
 
 Il est également possible de ne prendre que les ressources que vous souhaitez, en examinant les sous-dossiers de `data` pour ne copie que les fichiers qui vous intéressent.
 

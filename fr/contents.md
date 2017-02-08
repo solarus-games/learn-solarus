@@ -4,7 +4,7 @@ Bienvenue dans ce tutoriel, qui vous permettra petit à petit de créer votre pr
 
 ### Partie I : Initiation à Solarus
 
-[1) Installation et mise en place](001.getting-started/chapter.md)
+[1) Installation et mise en place](001.getting_started/chapter.md)
 
 [2) Importation des textures Zelda]()
 

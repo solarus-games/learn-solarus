@@ -8,7 +8,7 @@ Pour commencer, vous allez avoir besoin (bien évidemment) du logiciel Solarus. 
 
 Récupérez la version correspondant à votre système d'exploitation en cliquant sur l'icone correspondante :
 
-![page d'installation](http://img11.hostingpics.net/pics/702900Installation1.png)
+![page d'installation](../images/download_solarus.png)
 exemple pour Windows
 
 Dans l'archive que vous aurez récupéré, vous trouverez deux dossiers : un dossier nommé "sample_quest" qui, comme son nom l'indique, contient un exemple très rapide de ce qui peut être fait avec Solarus, et un autre dossier nommé "Solarus", qui contient les fichiers pour l'exécution du jeu.
@@ -25,7 +25,7 @@ Avant de commencer, vous devez créer un dossier qui contiendra l'intégralité 
 
 Lancez ensuite l'exécutable nommé "solarus-quest-editor.exe". Vous devriez voir apparaitre une fenêtre ressemblant à l'image suivante.
 
-![interface SQE](http://img11.hostingpics.net/pics/362752Installation2.png)
+![interface SQE](../images/editor_gui_empty.png)
 
 Vous devez maintenant créer une nouvelle quête afin de pouvoir commencer à travailler dessus. Pour cela, sélectionner "fichier", puis "nouvelle quête" en haut de la fenêtre. Sélectionnez ensuite le dossier que vous avez créé précédemment, et validez pour finaliser la création.
 

@@ -1,17 +1,17 @@
-## Chapitre 1 - Installation et mise en place du logiciel Solarus
+# Chapitre 1 - Installation de Solarus et création d'une quête
 
-### 1) Installation
+## 1) Installation
 
 Pour commencer, vous allez avoir besoin (bien évidemment) du logiciel Solarus. Vous pouvez le télécharger à partir du lien ci-dessous :
 
 [Télécharger Solarus](http://www.solarus-games.org/engine/download/)
 
-Récupérez la version correspondant à votre système d'exploitation en cliquant sur l'icone correspondante :
+Récupérez la version correspondant à votre système d'exploitation en cliquant sur l'icône correspondante :
 
 ![page d'installation](../images/download_solarus.png)
-exemple pour Windows
+Exemple pour Windows
 
-Dans l'archive que vous aurez récupéré, vous trouverez deux dossiers : un dossier nommé "sample_quest" qui, comme son nom l'indique, contient un exemple très rapide de ce qui peut être fait avec Solarus, et un autre dossier nommé "Solarus", qui contient les fichiers pour l'exécution du jeu.
+Dans l'archive que vous aurez récupérée, vous trouverez deux dossiers : un dossier nommé "sample_quest" qui, comme son nom l'indique, contient un exemple très rapide de ce qui peut être fait avec Solarus, et un autre dossier nommé "Solarus", qui contient les fichiers pour la création et l'exécution des jeux.
 
 Avant d'aller plus loin, voyons donc rapidement l'utilité des trois exécutables présents dans ce dossier :
 
@@ -19,7 +19,7 @@ Avant d'aller plus loin, voyons donc rapidement l'utilité des trois exécutable
 - Le deuxième, nommé "solarus-quest-editor", vous permettra d'éditer les quêtes dont vous disposerez.
 - Enfin, le troisième, nommé "solarus-run.exe", vous permettra de lancer la quête située dans le répertoire courant.
 
-### 2) Création d'une quête ###
+## 2) Création d'une quête
 
 Avant de commencer, vous devez créer un dossier qui contiendra l'intégralité des données de votre quête. Vous pouvez le créer n'importe où, cela n'aura pas d'importance.
 

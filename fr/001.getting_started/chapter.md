@@ -21,7 +21,7 @@ Avant d'aller plus loin, voyons donc rapidement l'utilité des trois exécutable
 
 ## 2) Création d'une quête
 
-Avant de commencer, vous devez créer un dossier qui contiendra l'intégralité des données de votre quête. Vous pouvez le créer n'importe où, cela n'aura pas d'importance.
+Avant de commencer, vous devez créer un dossier qui contiendra l'intégralité des données de votre quête. Vous pouvez le créer n'importe où, cela n'aura pas d'importance. Attention : Sous Windows, l'éditeur plante lorsque le chemin d'accès à la quête contient un caractère accentué.
 
 Lancez ensuite l'exécutable nommé "solarus-quest-editor.exe". Vous devriez voir apparaitre une fenêtre ressemblant à l'image suivante.
 

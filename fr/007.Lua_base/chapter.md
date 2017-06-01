@@ -29,7 +29,7 @@ Cette ligne peut se diviser en 3 parties :
 
 Lorsque vous voudrez créer une nouvelle fonction, vous devrez utiliser le mot clé "function" suivi du nom de votre fonction, puis entre parenthèses ses paramètres, séparés par des virgules.
 
-*exemple : *
+**exemple :**
 
 `function ma_nouvelle_fonction(game)` crée une fonction nommée "ma_nouvelle_fonction", qui prendra en paramètre un argument, qui sera nommé "game" dans la fonction.
 
@@ -53,7 +53,7 @@ Oui, ce n'est peut-être pas très clair, donc on va essayer d'approfondir un pe
 
 Dans l'exemple précédent, `game` est une variable dite "locale", c'est à dire qu'elle n'existe que dans la fonction qui appelle set\_starting\_location (donc que dans initialize\_new\_savegame, dans cet exemple). Ces variables sont créées en utilisant le mot clé `local` suivi du nom de la variable.
 
-*exemples* :
+**exemples :**
 
 /!\ Tous les noms de variables utilisés dans les exemples sont des noms choisis par mes soins. Vous pouvez bien évidemment choisir vos propres noms pour vos variables
 
@@ -67,7 +67,7 @@ Dans l'exemple précédent, `game` est une variable dite "locale", c'est à dire
 
 L'initialisation des variables globales se fait sensiblement de la même manière que pour les locales, on retire juste le mot "local". Ces variables seront ensuite accessibles depuis l'intégralité des fichiers de votre quête.
 
-*exemples* :
+**exemples :**
 
 `vie_heros` correspondra à la quantité de PV de votre héros. Dans un jeu Zelda, cette valeur sera de 12 au départ (3 coeurs, chacun divisé en 4 parties).
 

@@ -58,3 +58,12 @@ Si vous avez un site web, vous pouvez le spécifier dans cette rubrique. Il sera
 
 ### 10) La taille de la quête ###
 
+Cette fonctionnalité sera assez dure à comprendre pour un débutant, nous ne la traiterons donc pas pour le moment. Son utilisation sera détaillée dans un prochain chapitre.
+
+Pour le moment, je vous conseille de mettre trois valeurs identiques pour les trois champs(taille normale, minimum et maximum).
+
+## III) L'interface Solarus ##
+
+La plupart des propriétés sont affichées directement dans l'interface. Voici une image résumant rapidement les données affichées, ainsi que leur positions :
+
+![](./images/solarus_interface.png)

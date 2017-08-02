@@ -112,6 +112,8 @@ La ligne suivante indique que si l'objet est lancé sur des ennemis, il peut leu
 
 Enfin, la dernière ligne permet de modifier le terrain associé à l'objet quand celui-ci est présent. Par défaut, ce terrain est de type "mur". Il pourra par exemple devenir de type "herbe" quand il s'agira d'herbes hautes, au dessus d'un terrain traversable classique.
 
+## IV) Exercice ##
+
 On va donc finir par un petit exercice pour voir si vous avez tout bien compris :
 
-Commencez par créer un coffre, qui contiendra une épée. Vous pouvez, si ça vous tente, chercher comment bloquer la possibilité de l'utiliser avant d'ouvrir le coffre, mais ce n'est pas nécessaire. Ensuite, déposez un bouclier à côté, en objet ramassable. Enfin, utilisez un buisson pour dissimuler un coeur. Une fois tout ça fait de manière correcte, vous pouvez passer à la suite.
+Commencez par créer un coffre, qui contiendra une épée. Vous pouvez, si ça vous tente, chercher comment bloquer la possibilité de l'utiliser avant d'ouvrir le coffre, mais ce n'est pas nécessaire (la technique sera divulguée dans le prochain chapitre). Ensuite, déposez un bouclier à côté, en objet ramassable. Enfin, utilisez un buisson pour dissimuler un coeur. Une fois tout ça fait de manière correcte, vous pouvez passer à la suite.

@@ -72,17 +72,19 @@ Ajoutez donc une entité coffre, dont l'icone ressemble à celle ci-dessous, sur
 
 Vous devriez voir apparaitre un coffre avec les graphismes Zelda. Si ce n'est pas le cas, vérifiez que le sprite entities/chest est bien présent et qu'il est bien spécifié dans les propriétés de l'entité.
 
-Ouvrez les propriétés et sélectionnez le type d'objet que vous voulez mettre dans ce coffre (de la même manière que pour le trésor ramassable).
+Ouvrez les propriétés et sélectionnez le type d'objet que vous voulez mettre dans ce coffre (de la même manière que pour le trésor ramassable). Essayez de mettre une épée de niveau 1 pour le moment
 
 Maintenant, lancez le jeu et ouvrez ce coffre. Si vous avez de la chance, tout fonctionnera. Sinon, vous devriez avoir une erreur rouge vous disant `Missing treasure dialog: '_treasure.sword.1'`
 
-Ne vous en faites pas, c'est normal, car nous n'avons pas spécifié quel fichier de dialogues nous devions utiliser.
+Cette erreur peut avoir deux sources : La première serait que le dialogue correspondant n'existe pas. Si vous avez correctement importé les ressources en début de chapitre, ça ne devrait pas être le cas. La deuxième correspond à l'oubli de sélection du langage dans le fichier `main.lua`. Il y a de fortes chances que votre erreur vienne de là.
 
-Ouvrez-donc le fichier main.lua, et regardez les deux lignes commentées au début de la fonction on_started. Décommentez-donc la seconde et modifiez-la pour utiliser le language "fr".
+Ouvrez-donc le fichier `main.lua`, et regardez les deux lignes commentées au début de la fonction on_started. Décommentez-donc la seconde et modifiez-la pour utiliser le language "fr".
 
 Maintenant, réessayez de lancer le jeu et d'ouvrir le coffre :
 
 ![](images/chest_open.png)
+
+Tadaa ! Votre coffre est désormais fonctionnel !
 
 ### c) Les objets destructibles ###
 

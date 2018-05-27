@@ -58,3 +58,4 @@ Run
   - Add Qt5Core.dll, Qt5Gui.dll, Qt5Widgets.dll from Qt installation
   - Add platforms/qwindows.dll (this is located in Qt plugins folder)
   - Add libgcc_s_dw2-1.dll, libstdc++-6.dll, libwinpthread-1.dll as well
+  - Add assets (for the quest editor initial quest)
